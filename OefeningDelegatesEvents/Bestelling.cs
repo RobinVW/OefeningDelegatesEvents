@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using static OefeningDelegatesEvents.Program;
 
 namespace OefeningDelegatesEvents
 {
     public class Bestelling
     {
-        public enum ProductType { Tripel, Dubbel, Kriek, Pils }
+        //public enum ProductType { Tripel, Dubbel, Kriek, Pils }
 
         public ProductType Product { get; set; }
         public double Prijs { get; set; }
@@ -19,6 +20,10 @@ namespace OefeningDelegatesEvents
             Prijs = prijs;
             Aantal = aantal;
             Adres = adres;
+        }
+
+        public String toString() {
+            return Product.ToString() + "," + Aantal;
         }
     }
 }

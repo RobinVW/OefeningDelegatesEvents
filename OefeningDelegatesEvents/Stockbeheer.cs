@@ -6,5 +6,6 @@ namespace OefeningDelegatesEvents
 {
     class Stockbeheer
     {
+      
     }
 }
