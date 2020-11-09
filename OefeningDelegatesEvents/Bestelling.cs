@@ -22,7 +22,7 @@ namespace OefeningDelegatesEvents
             Adres = adres;
         }
 
-        public String toString() {
+        public override String ToString() {
             return Product.ToString() + "," + Aantal;
         }
     }

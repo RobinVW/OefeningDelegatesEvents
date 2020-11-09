@@ -40,7 +40,7 @@ namespace OefeningDelegatesEvents
             {
                 Console.WriteLine(pair.Key);
                 foreach (Bestelling bestelling in pair.Value) {
-                    Console.WriteLine("   " + bestelling.toString());
+                    Console.WriteLine("   " + bestelling.ToString());
                 }
             }
             Console.WriteLine("-----------");
