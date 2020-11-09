@@ -1,10 +1,10 @@
 ﻿using System;
+using static OefeningDelegatesEvents.Product;
 
 namespace OefeningDelegatesEvents
 {
     public class Program
     {
-        public enum ProductType { Dubbel, Kriek, Pils, Tripel }
         static void Main(string[] args)
         {
             Winkel w = new Winkel();
@@ -28,6 +28,8 @@ namespace OefeningDelegatesEvents
             sb.BestelStock();
             gh.ShowBestellingen();
             Console.WriteLine(sb.ToString());
+
+            gh.ShowLaatsteBestelling();
 
 
 

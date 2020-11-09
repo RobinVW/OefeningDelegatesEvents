@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using static OefeningDelegatesEvents.Program;
+using static OefeningDelegatesEvents.Product;
+
 
 namespace OefeningDelegatesEvents
 {
@@ -53,7 +54,7 @@ namespace OefeningDelegatesEvents
             var str = "------------\n";
             foreach (KeyValuePair<ProductType, int> kvp in stock)
             {
-                str += "[stock:"+kvp.Key+", "+kvp.Value+"]\n";
+                str += "[stock:"+ kvp.Key+", "+ kvp.Value+"]\n";
             }
             str += "------------";
             return str;

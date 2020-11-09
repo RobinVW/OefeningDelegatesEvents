@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using static OefeningDelegatesEvents.Program;
+using static OefeningDelegatesEvents.Product;
 
 namespace OefeningDelegatesEvents
 {

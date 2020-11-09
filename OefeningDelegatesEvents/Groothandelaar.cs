@@ -23,5 +23,12 @@ namespace OefeningDelegatesEvents
             }
             Console.WriteLine("-----------");
         }
+
+        public void ShowLaatsteBestelling() {
+            if(bestellingenLijst.Count > 0)
+            {
+                Console.WriteLine("Laatste voorraadbesteling :" + bestellingenLijst[bestellingenLijst.Count - 1].ToString());
+            }
+        }
     }
 }
